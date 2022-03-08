@@ -8,6 +8,9 @@ This repository contains the code release for NeRFocus: Neural Radiance Field fo
 `conda install pip; pip install --upgrade pip`  
 `pip install -r requirements.txt`  
 
+## Evaluation
+We provide a pretrained model in experiments/horns, so you can run the following command to generate a video with defocus effects. You may change the lens parameters "l" and "a" in eval_vid.py to adjust the focus distance and aperture size. 
+`python -m eval_vid --data_dir=horns --train_dir=experiments/horns --chunk=3196 --gin_file=configs/llff.gin --logtostderr`
 
 ## Data
 You can download the datasets from the [NeRF official Google Drive](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1). 
@@ -20,11 +23,7 @@ Run the following command, make sure the path is correct. You also need to chang
 `python -m train --data_dir=horns --train_dir=experiments/horns --gin_file=configs/llff.gin --logtostderr`  
 
 
-You can also train your own dataset, as long as it confroms to NeRF data format.
-
-## Evaluation
-Run the following command to generate a video with defocus effects, you may change the lens parameters "l" and "a" in eval_vid.py to adjust the focus distance and aperture size.  
-`python -m eval_vid --data_dir=horns --train_dir=experiments/horns --chunk=3196 --gin_file=configs/llff.gin --logtostderr`  
+You can also train your own dataset, as long as it confroms to NeRF data format.  
 
 
 ## Results
