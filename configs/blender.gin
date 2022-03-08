@@ -1,0 +1,7 @@
+Config.dataset_loader = 'blender'
+Config.batching = 'single_image'
+Config.batch_size = 4096
+Config.save_every = 5000
+Config.white_bkgd = False
+MipNerfModel.use_viewdirs = True
+MipNerfModel.ray_shape = 'cone'
