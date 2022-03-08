@@ -27,9 +27,12 @@ You can also train your own dataset, as long as it confroms to NeRF data format.
 
 
 ## Results
+[Click to watch video demonstration](https://www.bilibili.com/video/BV1Sq4y1b7CT?spm_id_from=333.851.b_7265636f6d6d656e64.3)  
+
 ![image](https://user-images.githubusercontent.com/95485229/157253266-c9c70953-9a7e-4f84-b10a-e5d1dbccdb95.png)
 ![image](https://user-images.githubusercontent.com/95485229/157253365-d5d371f0-192b-4ea8-9ed6-7364848ea767.png)
 ![image](https://user-images.githubusercontent.com/95485229/157254773-1d30b1de-27f5-4b82-b106-024698255c36.png)
+
 
 
 
