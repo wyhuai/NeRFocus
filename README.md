@@ -17,17 +17,20 @@ You can generate the multi-blur datasets by running datatool.py, remember to cha
 
 ## Training
 Run the following command, make sure the path is correct. You also need to change the path inside train.py to your data path.  
-`python -m train --data_dir=horns --train_dir=experiments/horns --gin_file=configs/llff.gin --logtostderr`
+`python -m train --data_dir=horns --train_dir=experiments/horns --gin_file=configs/llff.gin --logtostderr`  
+
+
+You can also train your own dataset, as long as it confroms to NeRF data format.
 
 ## Evaluation
 Run the following command to generate a video with defocus effects, you may change the lens parameters "l" and "a" in eval_vid.py to adjust the focus distance and aperture size.  
 `python -m eval_vid --data_dir=horns --train_dir=experiments/horns --chunk=3196 --gin_file=configs/llff.gin --logtostderr`  
 
-You can also train your own dataset, as long as it confroms to NeRF data format.
 
 ## Results
 ![image](https://user-images.githubusercontent.com/95485229/157253266-c9c70953-9a7e-4f84-b10a-e5d1dbccdb95.png)
 ![image](https://user-images.githubusercontent.com/95485229/157253365-d5d371f0-192b-4ea8-9ed6-7364848ea767.png)
+![image](https://user-images.githubusercontent.com/95485229/157254773-1d30b1de-27f5-4b82-b106-024698255c36.png)
 
 
 
