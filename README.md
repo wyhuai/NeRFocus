@@ -1,5 +1,5 @@
 # NeRFocus: Neural Radiance Field for 3D Synthetic Defocus
-This repository contains the code release for NeRFocus: Neural Radiance Field for 3D Synthetic Defocus. This implementation is written in JAX, and is a fork of Jon Barron's Mip-NeRF implementation. 
+This repository contains the code release for ***[NeRFocus: Neural Radiance Field for 3D Synthetic Defocus](https://arxiv.org/abs/2203.05189)***. This implementation is written in JAX, and is a fork of Jon Barron's Mip-NeRF implementation. 
 ![image](https://user-images.githubusercontent.com/95485229/157234315-3ea60023-3765-40e0-b820-87653dcbcde1.png)
 ## Installation
 
